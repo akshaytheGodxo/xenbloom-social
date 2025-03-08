@@ -3,24 +3,15 @@ import React, { useEffect } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 
 type CarouselProps = {
-    slides: React.ReactNode[]; // Array of components (JSX elements)
+    slides: React.ReactNode[];
 };
 
 const Carousel: React.FC<CarouselProps> = ({ slides }) => {
-    const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
+    const [emblaRef, emblaApi] = useEmblaCarousel({ loop: false, containScroll: "trim" });
 
-    // Auto-play functionality
     useEffect(() => {
         if (!emblaApi) return;
-        const play = () => {
-            if (emblaApi.canScrollNext()) {
-                emblaApi.scrollNext();
-            } else {
-                emblaApi.scrollTo(0); // Loop back to start
-            }
-        };
-        const interval = setInterval(play, 3000);
-        return () => clearInterval(interval);
+        
     }, [emblaApi]);
 
     return (
