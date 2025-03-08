@@ -4,6 +4,8 @@ import { LatestPost } from "~/app/_components/post";
 import { auth } from "~/server/auth";
 import { api, HydrateClient } from "~/trpc/server";
 import Navbar from "./_components/ui/nav";
+import Hero from "./_components/ui/hero";
+import Footer from "./_components/ui/footer";
 export default async function Home() {
   const hello = await api.post.hello({ text: "from tRPC" });
   const session = await auth();
@@ -15,6 +17,8 @@ export default async function Home() {
   return (
     <HydrateClient>
       <Navbar />
+      <Hero />
+      <Footer />
     </HydrateClient>
   );
 }
