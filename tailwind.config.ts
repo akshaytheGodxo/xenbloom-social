@@ -7,6 +7,8 @@ export default {
     extend: {
       fontFamily: {
         sans: ["var(--font-geist-sans)", ...fontFamily.sans],
+        outfit: [""],
+        nunito: ["Nunito"],
       },
     },
   },
