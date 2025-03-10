@@ -9,20 +9,20 @@ import linkedin from "public/linkedin.svg";
 const Footer = () => {
     return (
         <div className="px-4 mt-14 w-full flex justify-center">
-            <div className="bg-[#EFF2F5F5] w-full max-w-7xl rounded-2xl flex flex-col items-center p-6 md:p-12">
+            <div className="bg-[#EFF2F5F5] w-full max-w-7xl rounded-2xl flex flex-col  p-6 md:p-12">
                 {/* Logo */}
-                <Image src={cubical} alt="Cubical Logo" width={160} height={40} className="h-auto w-40 md:w-48" />
+                <Image src={cubical} alt="Cubical Logo" width={129} height={48} className="h-auto w-40 md:w-40 ml-4" />
 
                 {/* Tagline */}
-                <h2 className="text-center text-sm md:text-base text-[#0d0d0d] mt-4">
+                <h2 className=" text-sm md:text-base text-[#0d0d0d] mt-4 mb-4 w-fit ml-4">
                     Making modern farming <br className="hidden md:block" /> accessible for India
                 </h2>
 
                 {/* Divider */}
-                <div className="bg-[#666666] h-[2px] w-full max-w-[90%] my-8"></div>
+                <div className="bg-[#666666] h-[2px] w-full max-w-[100%] my-8 mx-auto"></div>
 
                 {/* Copyright & Socials */}
-                <div className="flex flex-col md:flex-row justify-between items-center w-full max-w-[90%]">
+                <div className="flex flex-col md:flex-row justify-between items-center w-full max-w-[90%] mx-auto">
                     {/* Copyright */}
                     <div className="flex items-center text-sm md:text-base text-[#0d0d0d] space-x-2">
                         <span>Copyright</span>

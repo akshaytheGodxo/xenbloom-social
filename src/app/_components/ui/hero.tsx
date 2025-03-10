@@ -12,10 +12,10 @@ const SlideOne = () => {
 
             {/* Text */}
             <div className="text-center mt-6 md:mt-[3.5rem] mt-[4.5rem]">
-                <h1 className="text-white text-xl sm:text-3xl md:text-4xl font-bold leading-snug">
+                <h1 className="text-white text-xl sm:text-3xl md:text-4xl  leading-snug">
                     SUPERFOOD - THAT YOUR
                 </h1>
-                <h1 className="text-white text-xl  sm:text-3xl md:text-4xl font-bold leading-snug">
+                <h1 className="text-white text-xl  sm:text-3xl md:text-4xl  leading-snug">
                     MODERN DIET NEEDS
                 </h1>
             </div>
