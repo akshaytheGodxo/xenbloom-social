@@ -21,9 +21,6 @@ const ContactUs = () => {
               </p>
 
               <div className="flex flex-col space-y-4">
-                <Button variant="outline" className="flex items-center gap-2 w-full border-gray-600 text-white">
-                  <Mail size={18} /> aadrika@singhal.com
-                </Button>
 
                 <Button variant="outline" className="flex items-center gap-2 w-full border-gray-600 text-white">
                   <Phone size={18} /> +91 90845 90954
