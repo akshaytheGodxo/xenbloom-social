@@ -8,7 +8,7 @@ import Link from "next/link";
 const ContactUs = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar logo="/cb-green.svg"/>
       <div className="flex items-center justify-center min-h-screen  p-6">
         <Card className="w-full max-w-lg bg-[#333333] shadow-lg rounded-2xl">
           <CardHeader>

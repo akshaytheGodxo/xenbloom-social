@@ -6,7 +6,7 @@ import Navbar from "../_components/ui/nav";
 const OrderPage = () => {
     return (
         <div>
-            <Navbar />
+            <Navbar logo="/cb-green.svg"/>
             <div className="flex items-center justify-center min-h-screen bg-gray-100 p-6">
                 <Card className="w-full max-w-md bg-white shadow-lg rounded-2xl">
                     <CardHeader >
@@ -25,3 +25,5 @@ const OrderPage = () => {
         </div>
     )
 }
+
+export default OrderPage;

@@ -6,7 +6,7 @@ import Navbar from "../_components/ui/nav";
 const Services = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar logo="/cb-green.svg"/>
     <div className="flex min-h-screen items-center justify-center bg-gray-100 p-6">
       <Card className="w-full max-w-md rounded-2xl bg-white shadow-lg">
         <CardHeader>
