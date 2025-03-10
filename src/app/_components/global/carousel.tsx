@@ -15,10 +15,10 @@ const Carousel: React.FC<CarouselProps> = ({ slides }) => {
     }, [emblaApi]);
 
     return (
-        <div className="overflow-hidden h-[46rem] m-auto" ref={emblaRef}>
-            <div className="flex">
-                {slides.map((slide, index) => (
-                    <div key={index} className="min-w-full flex justify-center items-center h-64">
+        <div className="overflow-hidden h-[44rem] max-w-7xl w-full  " ref={emblaRef}>
+            <div className="flex h-full">
+                {slides.map(( slide, i) => (
+                    <div key={i} className="min-w-full  flex justify-center items-center ">
                         {slide}
                     </div>
                 ))}

@@ -16,7 +16,7 @@ export default async function Home() {
 
   return (
     <HydrateClient>
-      <Navbar />
+      <Navbar logo="/cb-green.svg"/>
       <Hero />
       <Footer />
     </HydrateClient>
